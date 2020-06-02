@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+
+<!--
+File Name: template.html
+Date: 05/07/2020
+Programmer: Jamie Tomosunas
+-->
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Jamie Tomosunas">
+    <base target="_blank">
+    <!-- open all links not marked "_self" in a new tab -->
+
+    <title>Ace in the Hole</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.less" rel="stylesheet/less" type="text/css">
+    <link href="css/navigation.css" rel="stylesheet" type="text/css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+
+</head>
+
+<body>
+
+        <?php include 'includes/header.inc.html.php'; ?>
+        <header id="container" class="header">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <h1 id="logo">Ace in the Hole</h1>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="bring.html">What to Bring</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section class="butterflies">
+              
+                <img src="images/swimming.jpg" alt="swimmers">
+
+                <h2>Courses Descriptions</h2>
+                    <p>WATER TEMPERATURE is expected to be between 62 - 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
+                <p><span id="courses">Long Course SWIM </span>- 1.2mi - Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
+                <p><span id="courses">Long Course BIKE </span>- 58 Miles: A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you.s</p>
+                <p><span id="courses">Long Course RUN </span>- 13.1mi - A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).</p>
+                <p><span id="courses">OLYMPIC SWIM </span>- 1,500 meters - Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
+                <p><span id="courses">OLYMPIC BIKE </span>- 28mi - A scenic point-to-point course that travels over gently rolling hills. The bike course will be marked with large directional signage and course marshals will be present at key intersections.</p>
+                <p><span id="courses">OLYMPIC RUN - 10K </span>- A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).</p>
+                <p><span id="courses">Sprint: </span>Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run.</p>
+                <p><span id="courses">Try-A-Tri: </span>This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a flat 2 mile run (vs 3 mile sprint course).</p>
+                <p><span id="courses">Half Marathon COURSE: </span>The Half Marathon event (13.1-miles) starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified</p>
+                <p><span id="courses">10k COURSE: </span>The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</p>
+                <p><span id="courses">Splash n' Dash: </span>Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is free if an adult registers for an event otherwise it is $25.</p>
+            </section>
+
+
+        </main>
+            <footer id="designer">
+
+                <p>
+                Site design by Jamie Tomosunas, who is a student at <a href="http://www.pcc.edu" target="_blank">PCC</a>
+                </p>
+
+                <p id="contact">Jamie Tomosunas</p><a href="https://tomosaurus.webhostingforstudents.com/" target="_blank">https://tomosaurus.webhostingforstudents.com/</a>
+               
+                <p>Copyright &copy; <?php $year = date("Y"); echo $year; ?> Ace in the Hole <br>
+                <a href="mailto:hello@aceinthehole.com">hello@aceinthehole.com</a></p>
+            </footer>
+
+             <?php include 'includes/footer.inc.html.php'; ?>
+
+
+</body>
+
+</html>
